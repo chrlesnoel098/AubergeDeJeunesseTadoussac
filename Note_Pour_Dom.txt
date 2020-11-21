@@ -1,0 +1,12 @@
+Salut Dom!
+Mes défis:
+1. Mon Js permet d'animer et dynamiser la page (notamment de la navigation) + css animation subtile.
+2. J'ai intégré le concept parallaxe dans les images de la nav2.
+Maquette améliorée:
+3. Mon but était de rendre plus claire la navigation et faire ressortir le texte!
+
+(Avec les éléments automatiques, le contenu est plus facilement accessible selon moi ainsi que le texte l'adoptif).
+Les éléments qui portaient ont été enlevés et remplacés par des éléments plus classiques de navigation web. (icône/main)
+4. J'ai une page en développement. Pour l'instant je ne la trouvais pas nécessaire puisqu'elle n'est pas active (PHP)! 
+C'est la page réservation/hébergement.
+5. Sinon la navigation apporte aux liens nécessaires selon moi pour donner une navigation partielle complète.

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Auberge de jeunesse de Tadoussac</title>
+</head>
+<!-- LIENS CSS -->
+<link rel="stylesheet" href="./css/normalize.css">
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/slider.css">
+
+
+<!-- script pour caroussel/animation fluid -->
+<script src="js/jssor.slider.min.js" type="text/javascript"></script>
+<script src="js/util.js" type="text/javascript"></script>
+<script src="js/anim.js"></script>
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+SC&display=swap" rel="stylesheet">
+
+<!-- ICONE -->
+<script src="https://kit.fontawesome.com/b84e1636af.js" crossorigin="anonymous"></script>
+
+<body>
+    <div id="global">
+        <header>
+
+
+
+            <!-- NAVIGATION PRINCIPAL-->
+            <nav class="nav_principale" role='navigation'>
+                <a href="#" class="logo">Auberge de jeunesse de Tadoussac</a>
+                <div id="menuToggle">
+                    <input type="checkbox" />
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <ul id="menu">
+                        <li><a href="https://www.tadoussac.com/">Quoi faire?</a></li>
+                        <li><a href="#Menu">Manger & Boire</a></li>
+                        <li><a
+                                href="https://www.google.com/maps/place/Auberge+de+jeunesse+de+Tadoussac/@48.1431603,-69.7243663,17z/data=!4m8!3m7!1s0x4cbfd4c10cef94f5:0x3e7cdcf4b1842163!5m2!4m1!1i2!8m2!3d48.1431603!4d-69.7221776">Hébergement</a>
+                        </li>
+                        <li><a href="#evenement">Évènements</a></li>
+                        <li><a href="#citation">Qui sommes-nous?</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section>
+                <h1>ADJTADOU</h1>
+                <p>158 Rue du Bateau Passeur, Tadoussac, QC G0T 2A0 <br> (418) 235-4372</p>
+        </header>
+        <main class="contenu">
+            <div id="citation">
+                <p>L'Auberge de jeunesse de Tadoussac (Maison Majorique) c'est avant tout une maison où chacun peut se
+                    sentir chez-soi tout en visitant la province de Québec.
+                    Depuis 1974, des milliers de gens ont adopté l'Auberge et le village enchanteur de Tadoussac comme
+                    résidence temporaire.</p>
+            </div>
+            <!-- NAVIGATION SECONDAIRE PARALLAX -->
+            <div class="nav_secondaire">
+                <ul>
+                    <li><a href="https://www.tadoussac.com/">
+                            <p>Quoi faire?<i class="fas fa-arrow-circle-right"></i></p>
+                        </a></li>
+                    <li><a href="#Menu">
+                            <p>À boire et à manger<i class="fas fa-arrow-circle-right"></i></p>
+                        </a></li>
+                    <li><a
+                            href="https://www.google.com/maps/place/Auberge+de+jeunesse+de+Tadoussac/@48.1431603,-69.7243663,17z/data=!4m8!3m7!1s0x4cbfd4c10cef94f5:0x3e7cdcf4b1842163!5m2!4m1!1i2!8m2!3d48.1431603!4d-69.7221776">
+                            <p>Hébergement<i class="fas fa-arrow-circle-right"></i></p>
+                        </a></li>
+                    <li><a href="#evenement">
+                            <p>Évènement<i class="fas fa-arrow-circle-right"></i></p>
+                        </a></li>
+                    <li><a href="#citation">
+                            <p>Qui sommes-nous?<i class="fas fa-arrow-circle-right"></i></p>
+                        </a></li>
+                </ul>
+            </div>
+            <!-- Évènement vedette caroussel -->
+            <div class="vedette" id="evenement">
+                <div id="jssor_1"
+                    style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+
+                    <div data-u="slides"
+                        style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+                        <div class="citationsTexte">
+                            <div class="texte">
+                                <h1>Le grand Tintamarre</h1>
+                                <h2>30 mai au 2 juin 2020</h2>
+                                <p>Le grand Tintamarre est un festival qui permet <br> aux jeunes artistes de se
+                                    produire
+                                    devant un public chalheureux et ouvert d'esprit.
+
+                                </p>
+                            </div>
+                            <div class="image"><img src="./img/32.png" alt=""></div>
+                        </div>
+                        <div class="citationsTexte">
+                            <div class="texte">
+                                <h1>Q.R.B.P</h1>
+                                <h2>2 Juin 2020</h2>
+                                <p>un classique! <br> Québec redneck bluegrass project sera à l'auberge. <br> En
+                                    ouverture : Dany Nicolas (Flagoss) </p>
+                            </div>
+                            <div class="image"><img src="./img/2.jpg" alt=""></div>
+                        </div>
+
+                    </div>
+                    <!-- Bullet Navigator -->
+                    <div data-u="navigator" class="jssorb032" style="position:absolute;bottom:12px;right:12px;"
+                        data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                        <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                            <svg viewBox="0 0 16000 16000"
+                                style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Arrow Navigator -->
+                    <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;"
+                        data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                        <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                            <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                        </svg>
+                    </div>
+                    <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:25px;"
+                        data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                        <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                            <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                        </svg>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    jssor_1_slider_init();
+                </script>
+                <!-- #endregion Jssor Slider End -->
+            </div>
+    </div>
+    <!-- Artiste -->
+    <div>
+        <div class="nav_3">
+            <ul>
+                <li><a href="https://www.powder.com/powder-radio/marc-andre-belliveau/">
+                        <p>Conférence <br> Marc André <br><i class="fas fa-arrow-circle-right"></i></p>
+                    </a></li>
+                <li><a href="https://lisbonluxrecords.com/bronswick">
+                        <p>Show <br>Bronswick <br><i class="fas fa-arrow-circle-right"></i></p>
+                    </a></li>
+                <li><a href="https://www.lecaribouvolant.com/">
+                        <p>Show <br>Le Caribou volant <br><i class="fas fa-arrow-circle-right"></i></p>
+                    </a></li>
+                <li><a href="https://excavationetpoesie.bandcamp.com/releases">
+                        <p>Show <br>Excavation et poésie <br><i class="fas fa-arrow-circle-right"></i></p>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Boisson nourriture caroussel -->
+    <div id="Menu">
+        <div id="jssor_2"
+            style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+            <!-- Loading Screen -->
+
+            <div data-u="slides"
+                style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+                <div class="citationsTexte">
+                    <div class="texte2">
+                        <h1>Menu du jour</h1>
+
+                        <p>Déjeuner :
+                            Crêpe belge maison OU Déjeuner classique.
+                            <br>
+                            &
+                            <br>
+                            Plats principaux Végétarien pour souper :
+                            Potage de Poireau<br> & <br>Crème de Cajou Végétalienne
+                            avec mac & cheese OU Sandwich a la carte.
+                            <br>
+                            &
+                            <br>
+                            Dessert :
+                            Tarte aux pommes
+                            servie avec Café espagnol
+
+
+                        </p>
+                    </div>
+                    <div class="image2"><img src="./img/30.jpg" alt=""></div>
+                </div>
+                <div class="citationsTexte">
+                    <div class="texte">
+                        <h1>Nouvel arrivage Bière</h1>
+
+                        <p>
+                            -Toupie
+                            <br><br>
+                            -Graben vieillie 3 mois en fût de bourbon
+                            <br><br>
+                            -Krill
+                            <br><br>
+                            -saison des camerises </p>
+                    </div>
+                    <div class="image"><img src="./img/28.jpg" alt=""></div>
+                </div>
+
+            </div>
+            <!-- Bullet Navigator -->
+            <div data-u="navigator" class="jssorb032" style="position:absolute;bottom:12px;right:12px;"
+                data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div>
+            </div>
+            <!-- Arrow Navigator -->
+            <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;"
+                data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:25px;"
+                data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+            </div>
+        </div>
+        <script type="text/javascript">
+            jssor_2_slider_init();
+        </script>
+        <!-- #endregion Jssor Slider End -->
+    </div>
+    </div>
+    <!-- NEWSLETTER -->
+    <div class="inscription">
+
+        <form action="/action_page.php">
+            <div class="container">
+                <h2>S'INSCRIRE À NOTRE NEWSLETTER</h2>
+                <p>L'auberge offre une newsletter d'Évènements quotidiens pleine d'informations pratiques pour tous les
+                    voyageurs ! Découvrez les bonnes raisons pour vous inscrire au bulletin d'information de l'auberge
+                    de jeunesse de tadoussac.</p>
+            </div>
+
+            <div class="container" style="background-color:white">
+                <input type="text" placeholder="Name" name="Nom" required>
+                <input type="text" placeholder="Email address" name="Adresse courriel" required>
+                <label>
+                    <input type="checkbox" checked="checked" name="subscribe"> Newsletter Hebdomadaire
+                </label>
+            </div>
+
+            <div class="container">
+                <input type="submit" value="S'INSCRIRE">
+            </div>
+        </form>
+    </div>
+    <!-- BOUTTON FACEBOOK -->
+    <div class="facebook"><button class="block"
+            onclick="window.location.href='https://www.facebook.com/leaubergedejeunesse.tadoussac'"><i
+                class="far fa-thumbs-up"></i> <span></span>FACEBOOK</button></div>
+    <!-- SECTION INSTAGRAM -->
+    <div class="instagram">
+        <h1><a href="https://www.instagram.com/explore/locations/298663613/auberge-de-jeunesse-tadoussac/?hl=fr-ca">Nous
+                suivre sur instagram <span></span><i class="fab fa-instagram"></i></a></h1>
+        <div id="mosaique">
+            <img src="./img/17.jpg" alt="">
+            <img src="./img/18.jpg" alt="">
+            <img src="./img/19.jpg" alt="">
+            <img src="./img/21.jpg" alt="">
+            <img src="./img/22.jpg" alt="">
+            <img src="./img/26.jpg" alt="">
+            <img src="./img/27.jpg" alt="">
+            <img src="./img/28.jpg" alt="">
+            <img src="./img/29.jpg" alt="" class="hideMob hideTab">
+            <img src="./img/5.jpg" alt="" class="hideMob hideTab">
+            <img src="./img/23.jpg" alt="" class="hideMob hideTab">
+            <img src="./img/zz.jpg" alt="" class="hideMob hideTab">
+        </div>
+    </div>
+    </main>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <!-- LINK FOOTER -->
+        <div class="liens">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.292790909045!2d-69.72436628434096!3d48.14316027922395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cbfd4c10cef94f5%3A0x3e7cdcf4b1842163!2sAuberge%20de%20jeunesse%20de%20Tadoussac!5e0!3m2!1sfr!2sca!4v1575851434797!5m2!1sfr!2sca"
+                width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <ul>
+                <li><a href="https://www.tadoussac.com/">Tourisme Tadoussac</a></li>
+                <li><a href="https://www.facebook.com/municipalite.tadoussac/">Facebook Tadoussac</a></li>
+                <li><a href="https://www.legrandtintamarre.com/">Grand Tintamarre</a></li>
+                <li><a
+                        href="https://www.google.com/maps/place/Auberge+de+jeunesse+de+Tadoussac/@48.1431603,-69.7243663,17z/data=!4m8!3m7!1s0x4cbfd4c10cef94f5:0x3e7cdcf4b1842163!5m2!4m1!1i2!8m2!3d48.1431603!4d-69.7221776">
+                        contacter</a></li>
+                <li><a href="#global"><i class="far fa-hand-point-up"></i></a></li>
+
+            </ul>
+        </div>
+        <!-- COPYRIGHT -->
+        <div class="copyright">
+            <p>Charles Noel 2019</p>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
